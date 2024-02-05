@@ -19,6 +19,7 @@ pub mod offset_viewangles;
 pub mod remove_entities;
 pub mod superimpose;
 pub mod demo_to_pointfile;
+pub mod demo_to_path_corner;
 
 // use bitvec::bitvec;
 // use bitvec::prelude::*;
