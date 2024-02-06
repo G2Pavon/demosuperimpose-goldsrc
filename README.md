@@ -1,5 +1,5 @@
 # dem2pointfile
-Command Line Tool for convert player movements from a `.dem` file into a pointfile `.pts` to load in JACK/Trenchbroom
+Command Line Tool to convert player movements from a `.dem` file into a pointfile `.pts` to load in JACK/Trenchbroom
 
 Original implementation: https://github.com/khanghugo/demosuperimpose-goldsrc/blob/master/src/demo_doer/trenchbroom_player_point.rs
 
