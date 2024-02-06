@@ -1,25 +1,30 @@
-# demosuperimpose-goldsrc
+# dem2pointfile
+Command Line Tool for convert player movements from a `.dem` file into a pointfile `.pts` to load in JACK/Trenchbroom
 
-Demo superimpose/ghost reimplementation of [demsuperimpose](https://github.com/matthewearl/demsuperimpose) and [demogobbler](https://github.com/lipsanen/demogobbler) for GoldSrc.
+Original implementation: https://github.com/khanghugo/demosuperimpose-goldsrc/blob/master/src/demo_doer/trenchbroom_player_point.rs
+Forked to bring JACK support
 
-Beside that functionality, this thing can also write and parse demo.
+#### Usage:
 
-## Why
+windows
+```
+dem2pointfile.exe your_demo.dem
+```
 
-I am not sure. Beside the obvious uplift of compiled executable, [coldemoplayer](https://github.com/jpcy/coldemoplayer) pretty much has already finished all the hard work beside a writer. Bandwagon I think.
+linux
+```
+./dem2pointfile your_demo.dem
+```
 
-## How
+#### Output:
 
-Check for files in `src/demo_doer/` to see how to write your own functionality.
+`your_demo.pts`
 
-## Acknowledgement
+#### Load:
 
-Mostly based of these.
+| JACK | Trenchbroom |
+|------|-------------|
+| ![image](https://github.com/G2Pavon/demosuperimpose-goldsrc/assets/14117486/ed138680-3a27-4d90-be52-418a58d1a40b)| ![image](https://github.com/G2Pavon/demosuperimpose-goldsrc/assets/14117486/e19a6f51-7c1a-4a20-904d-400b9613f191)|
 
-[hlviewer.js](https://github.com/skyrim/hlviewer.js)
 
-[talent](https://github.com/cgdangelo/talent/tree/main)
 
-[coldemoplayer](https://github.com/jpcy/coldemoplayer)
-
-[hldemojs](https://github.com/Matherunner/hldemojs)
