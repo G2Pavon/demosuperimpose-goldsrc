@@ -49,5 +49,17 @@ dem2pointfile.exe your_demo.dem
 ![image](https://github.com/G2Pavon/demosuperimpose-goldsrc/assets/14117486/4495a592-e291-44fc-adab-3b343d2810c5)
 
 
+# Fly along path (TrenchBroom)
+
+After you open the point file, move the camera to the first point with `View->Camera->Move Camera to Next Point`, and continue hitting `.` hotkey to fly along path.
+
+![image](https://github.com/G2Pavon/demosuperimpose-goldsrc/assets/14117486/a48b2ac9-01f2-460f-b660-0eb920e1d45b)
+
+Video:
+
+
+![](https://www.youtube.com/watch?v=-1Mhm3EiSpA)
+
+[![](https://img.youtube.com/vi/-1Mhm3EiSpA/0.jpg)](https://www.youtube.com/watch?v=-1Mhm3EiSpA)
 ----
 
